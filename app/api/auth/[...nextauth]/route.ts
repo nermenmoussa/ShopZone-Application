@@ -58,6 +58,8 @@ export const authOptions: NextAuthOptions = {
         ...session.user,
         id: token.id as string,
         role: token.role as UserRole,
+        name: token.name as string,
+        email: token.email as string,
       }
 
       return session
