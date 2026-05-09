@@ -1,0 +1,1102 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@shopzone.com",
+      "phone": "+1234567890",
+      "password": "$2a$10$hashedpassword",
+      "role": "admin",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin",
+      "address": {
+        "street": "123 Admin St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "USA"
+      },
+      "isVerified": true,
+      "isActive": true,
+      "loyaltyPoints": 0,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "John Seller",
+      "email": "seller@shopzone.com",
+      "phone": "+1234567891",
+      "password": "$2a$10$hashedpassword",
+      "role": "seller",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=seller",
+      "address": {
+        "street": "456 Seller Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "country": "USA"
+      },
+      "isVerified": true,
+      "isActive": true,
+      "loyaltyPoints": 500,
+      "createdAt": "2024-01-05T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Jane Customer",
+      "email": "customer@shopzone.com",
+      "phone": "+1234567892",
+      "password": "$2a$10$hashedpassword",
+      "role": "customer",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer",
+      "address": {
+        "street": "789 Customer Blvd",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "country": "USA"
+      },
+      "isVerified": true,
+      "isActive": true,
+      "loyaltyPoints": 250,
+      "createdAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "name": "nermen",
+      "email": "nermen@gmail.com",
+      "phone": "010002255555",
+      "password": "$2b$10$Zj5vKsl/5W4SaJkJk66.VuLHpC2keRo3Oug6IhqPrNCNDuUNY645q",
+      "role": "customer",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=nermen",
+      "isVerified": false,
+      "isActive": true,
+      "loyaltyPoints": 0,
+      "createdAt": "2026-05-08T21:39:22.060Z",
+      "id": "L1v8iUgXUnc"
+    },
+    {
+      "name": "Nermen Dawood",
+      "email": "nermen55@gmail.com",
+      "phone": "01003555555",
+      "password": "$2b$10$9VJp.xrIWP/Ki25UALdy7.aRPZAbIVmjwQTLrppHc7I2lC6qBd0Pm",
+      "role": "seller",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Nermen Dawood",
+      "isVerified": false,
+      "isActive": true,
+      "loyaltyPoints": 0,
+      "createdAt": "2026-05-09T01:44:58.714Z",
+      "id": "nxO27d1Vs6E"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "1",
+      "userId": "2",
+      "storeName": "TechHub Store",
+      "storeDescription": "Best electronics and gadgets",
+      "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=techhub",
+      "banner": "/banners/techhub.jpg",
+      "totalEarnings": 15000,
+      "pendingPayout": 2500,
+      "rating": 4.8,
+      "totalSales": 320,
+      "isApproved": true,
+      "createdAt": "2024-01-05T00:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "slug": "electronics",
+      "icon": "💻",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400",
+      "parentId": null,
+      "productCount": 45
+    },
+    {
+      "id": "2",
+      "name": "Fashion",
+      "slug": "fashion",
+      "icon": "👗",
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400",
+      "parentId": null,
+      "productCount": 80
+    },
+    {
+      "id": "3",
+      "name": "Home & Garden",
+      "slug": "home-garden",
+      "icon": "🏡",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400",
+      "parentId": null,
+      "productCount": 60
+    },
+    {
+      "id": "4",
+      "name": "Sports",
+      "slug": "sports",
+      "icon": "⚽",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400",
+      "parentId": null,
+      "productCount": 35
+    },
+    {
+      "id": "5",
+      "name": "Books",
+      "slug": "books",
+      "icon": "📚",
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400",
+      "parentId": null,
+      "productCount": 120
+    },
+    {
+      "id": "6",
+      "name": "Beauty",
+      "slug": "beauty",
+      "icon": "💄",
+      "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400",
+      "parentId": null,
+      "productCount": 55
+    },
+    {
+      "id": "7",
+      "name": "Toys",
+      "slug": "toys",
+      "icon": "🧸",
+      "image": "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?w=400",
+      "parentId": null,
+      "productCount": 40
+    },
+    {
+      "id": "8",
+      "name": "Phones",
+      "slug": "phones",
+      "icon": "📱",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
+      "parentId": "1",
+      "productCount": 20
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "sellerId": "1",
+      "categoryId": "1",
+      "name": "MacBook Pro 14-inch M3",
+      "slug": "macbook-pro-14-m3",
+      "description": "The most powerful MacBook Pro ever. Featuring the M3 chip with 8-core CPU, 10-core GPU, and 16-core Neural Engine. Perfect for professionals.",
+      "price": 1999.99,
+      "originalPrice": 2199.99,
+      "discount": 9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600"
+      ],
+      "stock": 15,
+      "sku": "MBP-14-M3-001",
+      "brand": "Apple",
+      "tags": [
+        "laptop",
+        "apple",
+        "macbook",
+        "pro"
+      ],
+      "specifications": {
+        "processor": "Apple M3",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "14.2-inch Liquid Retina XDR",
+        "battery": "Up to 18 hours"
+      },
+      "rating": 4.9,
+      "reviewCount": 128,
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "sellerId": "1",
+      "categoryId": "8",
+      "name": "iPhone 15 Pro Max",
+      "slug": "iphone-15-pro-max",
+      "description": "iPhone 15 Pro Max. Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever.",
+      "price": 1199.99,
+      "originalPrice": 1299.99,
+      "discount": 8,
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600"
+      ],
+      "stock": 30,
+      "sku": "IPH-15PM-001",
+      "brand": "Apple",
+      "tags": [
+        "phone",
+        "apple",
+        "iphone",
+        "5g"
+      ],
+      "specifications": {
+        "processor": "A17 Pro",
+        "ram": "8GB",
+        "storage": "256GB",
+        "display": "6.7-inch Super Retina XDR",
+        "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto"
+      },
+      "rating": 4.8,
+      "reviewCount": 256,
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2024-01-16T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "sellerId": "1",
+      "categoryId": "1",
+      "name": "Samsung 65\" 4K QLED TV",
+      "slug": "samsung-65-4k-qled-tv",
+      "description": "Experience stunning visuals with Samsung's 65-inch QLED display. Quantum Dot technology for over a billion colors, HDR, and 120Hz refresh rate.",
+      "price": 899.99,
+      "originalPrice": 1099.99,
+      "discount": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=600",
+        "https://images.unsplash.com/photo-1601944177325-f8867652837f?w=600"
+      ],
+      "stock": 8,
+      "sku": "SAM-TV65-QLED",
+      "brand": "Samsung",
+      "tags": [
+        "tv",
+        "samsung",
+        "4k",
+        "qled"
+      ],
+      "specifications": {
+        "size": "65 inches",
+        "resolution": "3840x2160 4K UHD",
+        "refreshRate": "120Hz",
+        "hdr": "HDR10+",
+        "smartTv": "Yes - Tizen OS"
+      },
+      "rating": 4.7,
+      "reviewCount": 89,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2024-01-17T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "sellerId": "1",
+      "categoryId": "2",
+      "name": "Nike Air Max 270",
+      "slug": "nike-air-max-270",
+      "description": "The Nike Air Max 270 features Nike's biggest heel Air unit yet for an incredibly plush ride that feels as impossible as it looks.",
+      "price": 129.99,
+      "originalPrice": 160,
+      "discount": 19,
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+        "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=600"
+      ],
+      "stock": 50,
+      "sku": "NIKE-AM270-001",
+      "brand": "Nike",
+      "tags": [
+        "shoes",
+        "nike",
+        "air max",
+        "sneakers"
+      ],
+      "specifications": {
+        "material": "Mesh and synthetic",
+        "sole": "Rubber",
+        "closure": "Lace-up",
+        "sizes": "US 7-13"
+      },
+      "rating": 4.6,
+      "reviewCount": 312,
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2024-01-18T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "sellerId": "1",
+      "categoryId": "3",
+      "name": "Dyson V15 Detect Cordless Vacuum",
+      "slug": "dyson-v15-detect",
+      "description": "Dyson's most powerful cord-free vacuum. Laser dust detection, piezo sensor, and up to 60 minutes of fade-free power.",
+      "price": 749.99,
+      "originalPrice": 849.99,
+      "discount": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600"
+      ],
+      "stock": 12,
+      "sku": "DYS-V15-DET",
+      "brand": "Dyson",
+      "tags": [
+        "vacuum",
+        "dyson",
+        "cordless",
+        "home"
+      ],
+      "specifications": {
+        "runtime": "60 minutes",
+        "capacity": "0.76L",
+        "suction": "230 AW",
+        "weight": "3.1kg"
+      },
+      "rating": 4.8,
+      "reviewCount": 67,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2024-01-19T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "sellerId": "1",
+      "categoryId": "4",
+      "name": "Peloton Bike+",
+      "slug": "peloton-bike-plus",
+      "description": "The Peloton Bike+ features a rotating 23.8\" HD touchscreen, auto-resistance, and full-body workouts, all powered by Apple GymKit.",
+      "price": 2495,
+      "originalPrice": 2695,
+      "discount": 7,
+      "images": [
+        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600"
+      ],
+      "stock": 5,
+      "sku": "PEL-BIKE-PLUS",
+      "brand": "Peloton",
+      "tags": [
+        "bike",
+        "fitness",
+        "peloton",
+        "exercise"
+      ],
+      "specifications": {
+        "screen": "23.8-inch HD touchscreen",
+        "resistance": "Auto-follow",
+        "weight": "140 lbs",
+        "dimensions": "59\"L x 22\"W x 59\"H"
+      },
+      "rating": 4.9,
+      "reviewCount": 43,
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "7",
+      "sellerId": "1",
+      "categoryId": "6",
+      "name": "Chanel No. 5 Eau de Parfum",
+      "slug": "chanel-no5-edp",
+      "description": "The iconic Chanel No. 5 fragrance - a timeless floral aldehyde that has been enchanting women since 1921.",
+      "price": 159.99,
+      "originalPrice": 180,
+      "discount": 11,
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683702?w=600"
+      ],
+      "stock": 25,
+      "sku": "CHAN-NO5-100ML",
+      "brand": "Chanel",
+      "tags": [
+        "perfume",
+        "chanel",
+        "fragrance",
+        "beauty"
+      ],
+      "specifications": {
+        "size": "100ml",
+        "type": "Eau de Parfum",
+        "notes": "Ylang-ylang, jasmine, rose, sandalwood, vanilla"
+      },
+      "rating": 4.9,
+      "reviewCount": 189,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2024-01-21T00:00:00Z"
+    },
+    {
+      "id": "8",
+      "sellerId": "1",
+      "categoryId": "5",
+      "name": "Atomic Habits by James Clear",
+      "slug": "atomic-habits-james-clear",
+      "description": "An Easy & Proven Way to Build Good Habits & Break Bad Ones. The #1 New York Times bestseller.",
+      "price": 16.99,
+      "originalPrice": 27,
+      "discount": 37,
+      "images": [
+        "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600"
+      ],
+      "stock": 100,
+      "sku": "BOOK-ATOMIC-HAB",
+      "brand": "Penguin Random House",
+      "tags": [
+        "book",
+        "self-help",
+        "habits",
+        "productivity"
+      ],
+      "specifications": {
+        "pages": "320",
+        "language": "English",
+        "format": "Hardcover",
+        "publisher": "Avery"
+      },
+      "rating": 4.8,
+      "reviewCount": 2456,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2024-01-22T00:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": "1",
+      "userId": "3",
+      "rating": 5,
+      "title": "Best laptop I've ever owned",
+      "comment": "The M3 chip is incredibly fast. Battery life is amazing and the display is gorgeous. Worth every penny!",
+      "helpful": 45,
+      "verified": true,
+      "createdAt": "2024-02-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "productId": "2",
+      "userId": "3",
+      "rating": 5,
+      "title": "Incredible camera system",
+      "comment": "The titanium design feels premium and the camera improvements are massive. Best iPhone yet.",
+      "helpful": 32,
+      "verified": true,
+      "createdAt": "2024-02-05T00:00:00Z"
+    }
+  ],
+  "carts": [
+    {
+      "id": "1",
+      "userId": "3",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 1999.99
+        },
+        {
+          "productId": "4",
+          "quantity": 2,
+          "price": 129.99
+        }
+      ],
+      "updatedAt": "2024-03-01T00:00:00Z"
+    }
+  ],
+  "wishlists": [
+    {
+      "id": "1",
+      "userId": "3",
+      "productIds": [
+        "2",
+        "6",
+        "7"
+      ],
+      "updatedAt": "2024-03-01T00:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-2024-001",
+      "userId": "3",
+      "sellerId": "1",
+      "items": [
+        {
+          "productId": "2",
+          "name": "iPhone 15 Pro Max",
+          "quantity": 1,
+          "price": 1199.99,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600"
+        }
+      ],
+      "subtotal": 1199.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 96,
+      "total": 1295.99,
+      "promoCode": null,
+      "paymentMethod": "credit_card",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "name": "Jane Customer",
+        "street": "789 Customer Blvd",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "country": "USA"
+      },
+      "status": "delivered",
+      "trackingNumber": "TRK-1234567890",
+      "statusHistory": [
+        {
+          "status": "placed",
+          "timestamp": "2024-02-10T10:00:00Z",
+          "note": "Order placed successfully"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2024-02-10T11:00:00Z",
+          "note": "Order confirmed by seller"
+        },
+        {
+          "status": "processing",
+          "timestamp": "2024-02-11T09:00:00Z",
+          "note": "Order is being prepared"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2024-02-12T14:00:00Z",
+          "note": "Order shipped via FedEx"
+        },
+        {
+          "status": "out_for_delivery",
+          "timestamp": "2024-02-14T08:00:00Z",
+          "note": "Out for delivery"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2024-02-14T15:30:00Z",
+          "note": "Order delivered successfully"
+        }
+      ],
+      "createdAt": "2024-02-10T10:00:00Z"
+    },
+    {
+      "id": "ORD-2024-002",
+      "userId": "3",
+      "sellerId": "1",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Nike Air Max 270",
+          "quantity": 1,
+          "price": 129.99,
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+        },
+        {
+          "productId": "8",
+          "name": "Atomic Habits",
+          "quantity": 1,
+          "price": 16.99,
+          "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600"
+        }
+      ],
+      "subtotal": 146.98,
+      "discount": 20,
+      "shipping": 9.99,
+      "tax": 11.76,
+      "total": 148.73,
+      "promoCode": "SAVE20",
+      "paymentMethod": "paypal",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "name": "Jane Customer",
+        "street": "789 Customer Blvd",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "country": "USA"
+      },
+      "status": "shipped",
+      "trackingNumber": "TRK-0987654321",
+      "statusHistory": [
+        {
+          "status": "placed",
+          "timestamp": "2024-03-01T10:00:00Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2024-03-01T11:30:00Z",
+          "note": "Confirmed"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2024-03-03T14:00:00Z",
+          "note": "Shipped via UPS"
+        }
+      ],
+      "createdAt": "2024-03-01T10:00:00Z"
+    },
+    {
+      "id": "rKJ9Q-OZdD8",
+      "userId": "guest",
+      "sellerId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "name": "MacBook Pro 14-inch M3",
+          "quantity": 2,
+          "price": 1999.99,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600"
+        }
+      ],
+      "subtotal": 3999.98,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 319.9984,
+      "total": 4319.9784,
+      "promoCode": null,
+      "paymentMethod": "cash_on_delivery",
+      "paymentStatus": "pending",
+      "shippingAddress": {
+        "name": "nermen",
+        "street": "khaled ebn el waleed",
+        "city": "Faraskur",
+        "state": "NY",
+        "zip": "1001",
+        "country": "Egypt"
+      },
+      "status": "placed",
+      "statusHistory": [
+        {
+          "status": "placed",
+          "timestamp": "2026-05-09T00:16:22.147Z",
+          "note": "Order placed successfully"
+        }
+      ],
+      "createdAt": "2026-05-09T00:16:22.148Z"
+    },
+    {
+      "id": "SceV1BVc04Q",
+      "userId": "guest",
+      "sellerId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "name": "MacBook Pro 14-inch M3",
+          "quantity": 1,
+          "price": 1999.99,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600"
+        }
+      ],
+      "subtotal": 1999.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 159.9992,
+      "total": 2159.9892,
+      "promoCode": "SAVE20",
+      "paymentMethod": "cash_on_delivery",
+      "paymentStatus": "pending",
+      "shippingAddress": {
+        "name": "nermen",
+        "street": "khaled ebn el waleed",
+        "city": "Faraskur",
+        "state": "NY",
+        "zip": "1001",
+        "country": "Egypt"
+      },
+      "status": "placed",
+      "statusHistory": [
+        {
+          "status": "placed",
+          "timestamp": "2026-05-09T00:26:09.875Z",
+          "note": "Order placed successfully"
+        }
+      ],
+      "createdAt": "2026-05-09T00:26:09.875Z"
+    },
+    {
+      "id": "J7HkZZKk7Mo",
+      "userId": "guest",
+      "sellerId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "name": "MacBook Pro 14-inch M3",
+          "quantity": 1,
+          "price": 1999.99,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600"
+        },
+        {
+          "productId": "2",
+          "name": "iPhone 15 Pro Max",
+          "quantity": 1,
+          "price": 1199.99,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600"
+        },
+        {
+          "productId": "3",
+          "name": "Samsung 65\" 4K QLED TV",
+          "quantity": 1,
+          "price": 899.99,
+          "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=600"
+        }
+      ],
+      "subtotal": 4099.97,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 327.99760000000003,
+      "total": 4427.9676,
+      "promoCode": null,
+      "paymentMethod": "wallet",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "name": "nermen",
+        "street": "khaled ebn el waleed",
+        "city": "Faraskur",
+        "state": "NY",
+        "zip": "1001",
+        "country": "Egypt"
+      },
+      "status": "placed",
+      "statusHistory": [
+        {
+          "status": "placed",
+          "timestamp": "2026-05-09T00:33:16.106Z",
+          "note": "Order placed successfully"
+        }
+      ],
+      "createdAt": "2026-05-09T00:33:16.108Z"
+    },
+    {
+      "id": "ur1Xz_PjXP0",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "2",
+          "name": "iPhone 15 Pro Max",
+          "quantity": 1,
+          "price": 1199.99,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600"
+        }
+      ],
+      "subtotal": 1199.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 95.9992,
+      "total": 1295.9892,
+      "paymentMethod": "wallet",
+      "paymentStatus": "paid",
+      "status": "placed",
+      "createdAt": "2026-05-09T00:54:39.935Z"
+    },
+    {
+      "id": "eqEWGFTJYhI",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Samsung 65\" 4K QLED TV",
+          "quantity": 1,
+          "price": 899.99,
+          "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=600"
+        },
+        {
+          "productId": "1",
+          "name": "MacBook Pro 14-inch M3",
+          "quantity": 1,
+          "price": 1999.99,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600"
+        }
+      ],
+      "subtotal": 2899.98,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 231.9984,
+      "total": 3131.9784,
+      "paymentMethod": "wallet",
+      "paymentStatus": "paid",
+      "status": "placed",
+      "createdAt": "2026-05-09T01:03:17.248Z"
+    },
+    {
+      "id": "lpCTgrh4MPM",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Samsung 65\" 4K QLED TV",
+          "quantity": 1,
+          "price": 899.99,
+          "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=600"
+        }
+      ],
+      "subtotal": 899.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 71.9992,
+      "total": 971.9892,
+      "paymentMethod": "wallet",
+      "paymentStatus": "paid",
+      "status": "placed",
+      "createdAt": "2026-05-09T01:03:57.179Z"
+    },
+    {
+      "id": "OpiGdTXzHU8",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "2",
+          "name": "iPhone 15 Pro Max",
+          "quantity": 1,
+          "price": 1199.99
+        }
+      ],
+      "subtotal": 1199.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 95.9992,
+      "total": 1295.9892,
+      "paymentMethod": "cash_on_delivery",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-05-09T01:17:01.289Z"
+    },
+    {
+      "id": "dxcrzbD9fvs",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "1",
+          "name": "MacBook Pro 14-inch M3",
+          "quantity": 1,
+          "price": 1999.99
+        }
+      ],
+      "subtotal": 1999.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 159.9992,
+      "total": 2159.9892,
+      "paymentMethod": "cash_on_delivery",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-05-09T01:18:09.257Z"
+    },
+    {
+      "id": "1wqPA_2u-OU",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "1",
+          "name": "MacBook Pro 14-inch M3",
+          "quantity": 1,
+          "price": 1999.99
+        }
+      ],
+      "subtotal": 1999.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 159.9992,
+      "total": 2159.9892,
+      "paymentMethod": "cash_on_delivery",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-05-09T01:30:10.206Z"
+    },
+    {
+      "id": "QwjqyNGw590",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Nike Air Max 270",
+          "quantity": 1,
+          "price": 129.99
+        }
+      ],
+      "subtotal": 129.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 10.3992,
+      "total": 140.38920000000002,
+      "paymentMethod": "cash_on_delivery",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-05-09T01:34:47.180Z"
+    },
+    {
+      "id": "QjhuV0oPhfc",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "1",
+          "name": "MacBook Pro 14-inch M3",
+          "quantity": 1,
+          "price": 1999.99
+        }
+      ],
+      "subtotal": 1999.99,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 159.9992,
+      "total": 2159.9892,
+      "paymentMethod": "cash_on_delivery",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-05-09T01:35:08.061Z"
+    },
+    {
+      "id": "q5yrobUpuQM",
+      "userId": "guest",
+      "items": [
+        {
+          "productId": "1",
+          "name": "MacBook Pro 14-inch M3",
+          "quantity": 1,
+          "price": 1999.99
+        }
+      ],
+      "subtotal": 1999.99,
+      "shipping": 0,
+      "tax": 159.9992,
+      "total": 2159.9892,
+      "paymentMethod": "cash_on_delivery",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-05-09T01:39:08.050Z"
+    }
+  ],
+  "promoCodes": [
+    {
+      "id": "1",
+      "code": "SAVE20",
+      "type": "percentage",
+      "value": 20,
+      "minOrder": 100,
+      "maxUses": 100,
+      "usedCount": 45,
+      "isActive": true,
+      "expiresAt": "2025-12-31T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "code": "FLAT50",
+      "type": "fixed",
+      "value": 50,
+      "minOrder": 200,
+      "maxUses": 50,
+      "usedCount": 12,
+      "isActive": true,
+      "expiresAt": "2025-12-31T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "code": "NEWUSER",
+      "type": "percentage",
+      "value": 15,
+      "minOrder": 0,
+      "maxUses": 1000,
+      "usedCount": 234,
+      "isActive": true,
+      "expiresAt": "2025-12-31T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "code": "FREESHIP",
+      "type": "shipping",
+      "value": 100,
+      "minOrder": 50,
+      "maxUses": 500,
+      "usedCount": 89,
+      "isActive": true,
+      "expiresAt": "2025-12-31T00:00:00Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "title": "Summer Sale - Up to 50% Off",
+      "subtitle": "Shop the biggest deals of the season",
+      "image": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200",
+      "link": "/products?sale=true",
+      "buttonText": "Shop Now",
+      "isActive": true,
+      "order": 1
+    },
+    {
+      "id": "2",
+      "title": "New Arrivals in Electronics",
+      "subtitle": "Discover the latest gadgets and tech",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=1200",
+      "link": "/categories/electronics",
+      "buttonText": "Explore",
+      "isActive": true,
+      "order": 2
+    },
+    {
+      "id": "3",
+      "title": "Fashion Week Collection",
+      "subtitle": "New styles arriving daily",
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200",
+      "link": "/categories/fashion",
+      "buttonText": "View Collection",
+      "isActive": true,
+      "order": 3
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "userId": "3",
+      "type": "order",
+      "title": "Order Delivered!",
+      "message": "Your order ORD-2024-001 has been delivered successfully.",
+      "isRead": false,
+      "createdAt": "2024-02-14T15:30:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "type": "promo",
+      "title": "Special Offer Just for You!",
+      "message": "Use code SAVE20 for 20% off your next purchase over $100.",
+      "isRead": true,
+      "createdAt": "2024-02-20T10:00:00Z"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "1",
+      "userId": "3",
+      "balance": 150,
+      "transactions": [
+        {
+          "id": "t1",
+          "type": "credit",
+          "amount": 200,
+          "description": "Wallet top-up",
+          "date": "2024-01-15T00:00:00Z"
+        },
+        {
+          "id": "t2",
+          "type": "debit",
+          "amount": 50,
+          "description": "Order payment",
+          "date": "2024-02-01T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "savedPayments": [
+    {
+      "id": "1",
+      "userId": "3",
+      "type": "credit_card",
+      "last4": "4242",
+      "brand": "Visa",
+      "expMonth": 12,
+      "expYear": 2026,
+      "isDefault": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
