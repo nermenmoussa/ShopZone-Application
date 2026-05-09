@@ -1,16 +1,14 @@
-import NextAuth from "next-auth"
+import NextAuth, { type DefaultSession } from "next-auth"
 import GoogleProvider from "next-auth/providers/google"
 import CredentialsProvider from "next-auth/providers/credentials"
 
 const handler = NextAuth({
   providers: [
-    // Google Login
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID!,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
 
-    // Credentials Login
     CredentialsProvider({
       name: "credentials",
       credentials: {
@@ -31,12 +29,11 @@ const handler = NextAuth({
         if (!user) return null
         if (user.password !== credentials.password) return null
 
-        // مهم: نرجّع البيانات المهمة بس
         return {
           id: user.id,
           name: user.name,
           email: user.email,
-          role: user.role || "customer",
+          role: user.role ?? "customer",
         }
       },
     }),
@@ -47,18 +44,16 @@ const handler = NextAuth({
   },
 
   callbacks: {
-    // JWT: نخزن البيانات هنا
     async jwt({ token, user }) {
       if (user) {
-        token.id = user.id
-        token.role = user.role
+        token.id = (user as any).id
+        token.role = (user as any).role
         token.name = user.name
         token.email = user.email
       }
       return token
     },
 
-    // Session: نرجع البيانات للفرونت
     async session({ session, token }) {
       session.user = {
         ...session.user,
